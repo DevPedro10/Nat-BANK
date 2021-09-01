@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px ){
+    .discover img {
+        position: relative;
+        bottom: 270px;
+    }
+    .discover .text {
+        position: relative;
+        bottom: 450px ;
+    }
+
+    .discover {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    header .btn {
+        margin-left: 15px;
+    }
+    #navbarSupportedContent > ul {
+        padding-left: 0.8rem;
+    }
+    
+    #navbarSupportedContent > ul > li:nth-child(n) > a {
+        padding: 0.8rem 0;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .service .last h5{
+        font-size: 1.2rem;
+    }
+}
