@@ -122,13 +122,13 @@ button.btnBlack {
     cursor: pointer;
     background-color: var(--darkColor) !important;
     color: var(--lightColor);
-    border: 1px solid black;
+    border: 2px solid black !important;
     transition: .2s ease-in-out;
 }
 
 button.btnBlack:hover {
     background-color: var(--lightColor) !important;
-    color: var(--darkColor);
+    color: var(--darkColor) !important;
 }
 
 .txt-black *{
@@ -142,6 +142,7 @@ section .texts {
 
 
 section .texts h1 {
+    font-weight: bold;
     color: var(--greenMain);
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -155,13 +156,14 @@ section .texts h2 {
 
 section .texts p {
     line-height: 20px;
+    color: var(--darkColor3);
 }
 
 
 section .texts button {
     cursor: pointer;
     margin-top: 13px;
-    padding: 5px 20px;
+    padding: 9px 20px;
     font-size: 1.3rem;
     border-radius: 15px;
     background-color: var(--greenMain);
@@ -173,4 +175,123 @@ section .texts button:hover {
     border: 1px solid var(--lightColor);
     background-color: var(--darkColor);
     color: var(--lightColor);
+}
+
+#titleOS {
+    color: var(--lightColor);
+    font-size: 2.2em;
+}
+
+
+#ourService {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    height: 100vh;
+    background-color: var(--darkColor);
+}
+
+#threebenefits {
+    gap: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.allService {
+    border-radius: 10px;
+    width: 250px;
+    background-color: var(--lightColor);
+    padding: 35px 15px;
+}
+
+.allService img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.allService h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.allService p {
+    color: var(--darkColor3);
+    margin: 15px auto;
+    width: 200px;
+    text-align: center;
+} 
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--darkColor2);
+    height: 40vh;
+    gap: 100px;
+
+}
+
+#contentAndLinks {
+    margin-top: 30px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--lightColor);
+}
+
+
+
+
+footer a {
+    text-decoration: none;
+    color: var(--linkColor);
+}
+
+
+#Content {
+    width: 310px;
+    text-align: left;
+
+}
+
+
+footer #h1Register {
+    color: var(--lightColor);
+    text-align: center;
+}
+
+footer h1 button {
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: var(--greenMain);
+    border: 2px solid var(--darkColor2);
+    padding: 8px 30px;
+    border-radius: 15px;
+    color: var(--darkColor2);
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
+
+footer h1 button:hover  {
+    border-color: var(--lightColor);
+    color: var(--lightColor);
+    background-color: transparent;
+}
+
+footer p#copyright {
+    color: var(--lightColor);
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p#copyright a{
+    font-weight: bold;
 }

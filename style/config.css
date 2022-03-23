@@ -6,10 +6,12 @@
 :root {
 	--darkColor: #000000;
 	--darkColor2: #1b1b1b;
+	--darkColor3: #2b2b2b;
 	--greenMain: #00BF7F;
 	--lightColor: #FFFFFF;
 	--shadow: #00000073;
-
+	--linkColor: #00744d;
+	;
 }
 
 
