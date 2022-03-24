@@ -118,6 +118,10 @@ section.benefitsArea {
     flex-direction: row-reverse;
 }
 
+section .texts #color-white {
+    color: white;
+}
+
 button.btnBlack {
     cursor: pointer;
     background-color: var(--darkColor) !important;
@@ -232,13 +236,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     background-color: var(--darkColor2);
-    height: 40vh;
+
     gap: 100px;
 
 }
 
 #contentAndLinks {
-    margin-top: 30px ;
+    margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -246,11 +250,18 @@ footer {
 }
 
 
+footer .columnLink h1 {
+    margin: 30px auto 10px auto;
+}
 
 
 footer a {
     text-decoration: none;
     color: var(--linkColor);
+}
+
+footer ul li  {
+    margin-bottom: 10px;
 }
 
 
@@ -290,6 +301,7 @@ footer p#copyright {
     color: var(--lightColor);
     text-align: center;
     font-weight: bold;
+    padding: 20px;
 }
 
 footer p#copyright a{
