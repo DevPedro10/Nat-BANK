@@ -1,0 +1,55 @@
+@media screen and (max-width: 995px) {
+    #titleOS{
+        transform: translateY(400px);
+    }
+    section#ourService {
+        height: 200vh;
+    }
+
+    div#threebenefits {
+        flex-direction: column;
+        margin: 500px;
+    }
+}
+
+
+@media screen and (max-width: 915px) {
+    section.benefitsArea {
+        flex-direction: column;
+    }
+
+    section.benefitsArea .texts {
+        width: 50%;
+    }
+
+    section.benefitsArea img {
+        width: 350px;
+    }
+}
+
+/* Footer */
+
+@media screen and (max-width: 745px) {
+    #contentAndLinks {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    #Content {
+        width: 400px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    #Content p {
+        text-align: center;
+    }
+
+    #Content h1 {
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+

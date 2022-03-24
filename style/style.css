@@ -1,5 +1,12 @@
+/* Configurações */
+
 @import url(./config.css);
 
+/* Responsividade */
+
+@import url(./mediaQuery.css);
+
+/* Estilização */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -249,6 +256,11 @@ footer {
     color: var(--lightColor);
 }
 
+.columnsLink{
+    display: flex;
+    gap: 100px;
+}
+
 
 footer .columnLink h1 {
     margin: 30px auto 10px auto;
@@ -307,3 +319,5 @@ footer p#copyright {
 footer p#copyright a{
     font-weight: bold;
 }
+
+
