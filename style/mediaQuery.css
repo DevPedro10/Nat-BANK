@@ -27,9 +27,32 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+
+
+    section.benefitsArea .texts {
+        width: 90%;
+    }
+}
+
+
 /* Footer */
 
 @media screen and (max-width: 745px) {
+    #textWelcome {
+        width: 100vw;
+    }
+
+    #textWelcome h1 {
+        font-size: 2.6rem !important;
+    }
+
+    #textWelcome p {
+        font-size: 1.3rem !important;
+    }
+
+
+
     #contentAndLinks {
         flex-direction: column;
         text-align: center;
