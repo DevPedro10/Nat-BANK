@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bank</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="shortcut icon" href="imagens/icons8-bank-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
+        <h1 id="logo">Bank</h1>
         <nav>
-            <h1 id="logo">Bank</h1>
             <ul>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Descubra</a></li>
@@ -19,12 +19,13 @@
                 <li><a href="#">Sign Up</a></li>
             </ul>
             <button id="btnRegister">Sign In</button>
+            <button id="menuToggle">Menu</button>
         </nav>
     </header>
 
     <section>
         <div id="videoWelcome">
-            <video src="imagens/1.mp4" muted loop autoplay></video>
+            <video src="assets/video-main.mp4" muted loop autoplay></video>
             <div id="textWelcome">
                 <h1>Virtual Banking Made Easy</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores porro amet iusto vero eaque necessitatibus</p>
@@ -41,7 +42,7 @@
             <button>Learn More</button>
         </div>
 
-        <img src="imagens/1.svg" class="benefitsAreaImg" alt="">
+        <img src="assets/premium-bank.svg" class="benefitsAreaImg" alt="">
         
     </section>
 
@@ -53,7 +54,7 @@
             <button class="btnBlack">Learn More</button>
         </div>
 
-        <img src="./imagens/2.png" class="benefitsAreaImg"alt="">
+        <img src="./assets/unlimited-acess.png" class="benefitsAreaImg"alt="">
     </section>
 
     <section id="ourService">
@@ -62,18 +63,18 @@
         <div id="threebenefits">
 
             <div class="allService">
-                <img src="imagens/1.svg" alt="">
+                <img src="assets/premium-bank.svg" alt="">
                 <h1>Reduce Expenses</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, magni quod?</p>
 
             </div>
             <div class="allService">
-                <img src="imagens/2.png" alt="">
+                <img src="assets/unlimited-acess.png" alt="">
                 <h1>Virtual Offices</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, magni quod?</p>
             </div>
             <div class="allService">
-                <img src="imagens/3.png" alt="">
+                <img src="assets/bank.png" alt="">
                 <h1>Premium Benifites</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, magni quod?</p>
             </div>
@@ -90,7 +91,7 @@
             <button class="btnBlack">Learn More</button>
         </div>
 
-        <img src="./imagens/4.png" class="benefitsAreaImg"alt="">
+        <img src="./assets/papers.png" class="benefitsAreaImg"alt="">
     </section>
 
     <footer>
@@ -135,5 +136,7 @@
         
         <p id="copyright">&copy; 2022 Copyright: <a href="https://github.com/DevPedro10/" target="_blank">Natã Pedro</a></p>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

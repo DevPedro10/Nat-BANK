@@ -6,6 +6,7 @@
 
 @import url(./mediaQuery.css);
 
+
 /* Estilização */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -21,17 +22,22 @@ header {
     box-shadow: 2px 2px 15px #00000073;
 }
 
-
-header nav {
-    width: 85%;
-    height: 75px;
-    margin: auto;
+header {
     display: flex;
     align-items: center;
+    height: 75px;
+    margin: auto;
     justify-content: space-between;
 }
 
-header nav h1#logo {
+header nav {
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+}
+
+header h1#logo {
+    padding-left: 70px;
     text-transform: uppercase;
     font-size: 1.7rem;
 }
@@ -53,11 +59,18 @@ header nav ul li a {
 
 
 header nav button#btnRegister {
+    margin-left: 30px;
     cursor: pointer;
     background-color: var(--greenMain);
     border: 1px solid transparent;
     padding: 7px 30px;
     border-radius: 15px;
+}
+
+
+
+#menuToggle {
+    display: none;
 }
 
 section video {
@@ -321,3 +334,96 @@ footer p#copyright a{
 }
 
 
+
+
+/* Responsividade (Media Query) */
+
+
+
+@media screen and (max-width: 995px) {
+    #titleOS{
+        transform: translateY(400px);
+    }
+    section#ourService {
+        height: 200vh;
+    }
+
+    div#threebenefits {
+        flex-direction: column;
+        margin: 500px;
+    }
+}
+
+
+@media screen and (max-width: 915px) {
+    section.benefitsArea {
+        flex-direction: column;
+    }
+
+    section.benefitsArea .texts {
+        width: 50%;
+    }
+
+    section.benefitsArea img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+
+    section.benefitsArea .texts {
+        width: 90%;
+    }
+}
+
+
+/* Footer */
+
+@media screen and (max-width: 745px) {
+    #textWelcome {
+        width: 100vw;
+    }
+
+    #textWelcome h1 {
+        font-size: 2.6rem !important;
+    }
+
+    #textWelcome p {
+        font-size: 1.3rem !important;
+    }
+
+
+
+    #contentAndLinks {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    #Content {
+        width: 400px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    #Content p {
+        text-align: center;
+    }
+
+    #Content h1 {
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+
+/* Menu Responsivo */ 
+
+
+
+@media screen and (max-width: 810px) {
+    
+
+        
+}

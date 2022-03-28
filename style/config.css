@@ -1,7 +1,6 @@
 /* This file 'config.css' contains Reset, Color variables and fonts.*/
 
-
-/* Variable */
+/* Variables */
 
 :root {
 	--darkColor: #000000;
@@ -13,10 +12,6 @@
 	--linkColor: #00744d;
 	;
 }
-
-
-
-
 
 
 /* Reset CSS */
